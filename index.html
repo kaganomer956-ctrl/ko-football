@@ -1,82 +1,65 @@
+
 <!DOCTYPE html>
 <html lang="tr">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Kağan Ömer</title>
-
 <style>
-
-body{
-margin:0;
-font-family:Arial;
-background:#111;
-color:white;
-text-align:center;
-}
-
-header{
-padding:100px;
-}
-
-h1{
-font-size:60px;
-}
-
-p{
-font-size:22px;
-color:#ddd;
-}
-
-button{
-
-padding:15px 35px;
-font-size:20px;
-border:none;
-border-radius:8px;
-background:#00bfff;
-color:white;
-cursor:pointer;
-
-}
-
-button:hover{
-background:#0099cc;
-}
-
-footer{
-
-margin-top:150px;
-padding:20px;
-background:#222;
-
-}
-
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:linear-gradient(135deg,#0f172a,#1e3a8a);color:#fff}
+header{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:20px}
+h1{font-size:64px}
+h2{color:#60a5fa;margin:10px 0}
+p{max-width:700px;line-height:1.7}
+.btn{display:inline-block;margin-top:25px;padding:14px 28px;background:#3b82f6;color:#fff;text-decoration:none;border-radius:10px;transition:.3s}
+.btn:hover{background:#2563eb}
+section{padding:70px 20px;max-width:1000px;margin:auto}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px}
+.card{background:rgba(255,255,255,.08);padding:20px;border-radius:14px;backdrop-filter:blur(8px)}
+footer{text-align:center;padding:25px;background:#111827}
 </style>
-
 </head>
-
 <body>
-
 <header>
-
-<h1>Merhaba 👋</h1>
-
-<h2>Ben Kağan Ömer</h2>
-
-<p>
-Bu benim ilk web sitem.
-</p>
-
-<button>Bana Ulaş</button>
-
+<h1>👋 Kağan Ömer</h1>
+<h2>Öğrenci • Web Geliştirici Adayı</h2>
+<p>Merhaba! Ben Kağan. Ağ teknolojileri, Cisco ve web geliştirme öğreniyorum. Bu siteyi GitHub Pages ile ücretsiz olarak hazırladım.</p>
+<a class="btn" href="#about">Hakkımda</a>
 </header>
 
-<footer>
+<section id="about">
+<h2>🙋 Hakkımda</h2>
+<p>Yeni teknolojiler öğrenmeyi seviyorum. HTML, CSS ve JavaScript öğrenerek daha iyi web siteleri geliştirmeyi hedefliyorum.</p>
+</section>
 
-© 2026 Kağan Ömer
+<section>
+<h2>💻 Yeteneklerim</h2><br>
+<div class="cards">
+<div class="card">HTML</div>
+<div class="card">CSS</div>
+<div class="card">JavaScript</div>
+<div class="card">Cisco</div>
+<div class="card">Network</div>
+<div class="card">GitHub</div>
+</div>
+</section>
 
-</footer>
+<section>
+<h2>📂 Projeler</h2><br>
+<div class="cards">
+<div class="card"><h3>İlk Web Sitem</h3><p>GitHub Pages üzerinde yayınlandı.</p></div>
+<div class="card"><h3>Cisco Notları</h3><p>Ağ teknolojileri üzerine çalışmalar.</p></div>
+<div class="card"><h3>Yakında...</h3><p>Yeni projeler eklenecek.</p></div>
+</div>
+</section>
 
+<section>
+<h2>📞 İletişim</h2>
+<p>E-posta: mail@example.com</p>
+<p>GitHub: github.com/kaganomer956-ctrl</p>
+</section>
+
+<footer>© 2026 Kağan Ömer</footer>
 </body>
 </html>
