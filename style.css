@@ -791,9 +791,119 @@ color:#ff2b2b;
 .copyright{
 
 margin-top:35px;
+   
 
 font-size:15px;
 
 color:#666;
+
+}
+.hero-badge{
+
+display:inline-block;
+
+padding:10px 20px;
+
+background:rgba(255,0,0,.15);
+
+border:1px solid rgba(255,0,0,.35);
+
+backdrop-filter:blur(12px);
+
+border-radius:50px;
+
+margin-bottom:25px;
+
+font-weight:600;
+
+letter-spacing:2px;
+
+}
+
+.hero h2{
+
+font-size:32px;
+
+font-weight:500;
+
+margin-top:15px;
+
+color:#ff4a4a;
+
+}
+
+.hero-buttons{
+
+margin-top:40px;
+
+display:flex;
+
+justify-content:center;
+
+gap:20px;
+
+flex-wrap:wrap;
+
+}
+
+.hero-cards{
+
+margin-top:70px;
+
+display:grid;
+
+grid-template-columns:repeat(4,1fr);
+
+gap:20px;
+
+}
+
+.mini-card{
+
+background:rgba(255,255,255,.05);
+
+backdrop-filter:blur(12px);
+
+border:1px solid rgba(255,0,0,.25);
+
+border-radius:20px;
+
+padding:25px;
+
+transition:.4s;
+
+}
+
+.mini-card:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 0 25px rgba(255,0,0,.35);
+
+}
+
+.mini-card h3{
+
+font-size:42px;
+
+color:#ff2b2b;
+
+}
+
+.mini-card p{
+
+margin-top:10px;
+
+color:#ddd;
+
+}
+
+@media(max-width:900px){
+
+.hero-cards{
+
+grid-template-columns:repeat(2,1fr);
+
+}
 
 }
