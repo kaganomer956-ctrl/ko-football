@@ -1041,3 +1041,73 @@ border:none;
 font-size:16px;
 
 }
+/* =========================
+   VIDEO ACTIONS
+========================= */
+
+.video-actions{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+margin-top:20px;
+
+flex-wrap:wrap;
+
+gap:10px;
+
+}
+
+.like-btn,
+.watch-btn{
+
+padding:10px 18px;
+
+border:none;
+
+border-radius:30px;
+
+background:#1a1a1a;
+
+color:white;
+
+cursor:pointer;
+
+transition:.3s;
+
+font-size:15px;
+
+}
+
+.like-btn:hover{
+
+background:#ff2b2b;
+
+}
+
+.watch-btn:hover{
+
+background:#444;
+
+}
+
+.trend-badge{
+
+background:linear-gradient(90deg,#ff2b2b,#ff7300);
+
+padding:8px 15px;
+
+border-radius:20px;
+
+font-size:14px;
+
+font-weight:bold;
+
+color:white;
+
+box-shadow:0 0 15px rgba(255,0,0,.4);
+
+}
