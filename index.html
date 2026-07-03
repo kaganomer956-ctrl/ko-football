@@ -1,65 +1,172 @@
-
 <!DOCTYPE html>
 <html lang="tr">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kağan Ömer</title>
-<style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:Arial,sans-serif;background:linear-gradient(135deg,#0f172a,#1e3a8a);color:#fff}
-header{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:20px}
-h1{font-size:64px}
-h2{color:#60a5fa;margin:10px 0}
-p{max-width:700px;line-height:1.7}
-.btn{display:inline-block;margin-top:25px;padding:14px 28px;background:#3b82f6;color:#fff;text-decoration:none;border-radius:10px;transition:.3s}
-.btn:hover{background:#2563eb}
-section{padding:70px 20px;max-width:1000px;margin:auto}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px}
-.card{background:rgba(255,255,255,.08);padding:20px;border-radius:14px;backdrop-filter:blur(8px)}
-footer{text-align:center;padding:25px;background:#111827}
-</style>
+
+<title>KO Football | Kağan Ömer</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
-<header>
-<h1>👋 Kağan Ömer</h1>
-<h2>Öğrenci • Web Geliştirici Adayı</h2>
-<p>Merhaba! Ben Kağan. Ağ teknolojileri, Cisco ve web geliştirme öğreniyorum. Bu siteyi GitHub Pages ile ücretsiz olarak hazırladım.</p>
-<a class="btn" href="#about">Hakkımda</a>
-</header>
+
+<nav>
+
+<h1>KO Football</h1>
+
+<ul>
+
+<li><a href="#home">Ana Sayfa</a></li>
+
+<li><a href="#about">Ben Kimim</a></li>
+
+<li><a href="#videos">Videolar</a></li>
+
+<li><a href="#stats">İstatistik</a></li>
+
+<li><a href="#top10">Top10</a></li>
+
+<li><a href="#contact">İletişim</a></li>
+
+</ul>
+
+</nav>
+
+<section id="home" class="hero">
+
+<h2>KAĞAN ÖMER</h2>
+
+<h3>Football Portfolio</h3>
+
+<p>16 Yaş • Sol Ayak • Öğrenci • Kanat</p>
+
+<a href="#videos" class="btn">
+
+Videoları İzle
+
+</a>
+
+</section>
 
 <section id="about">
-<h2>🙋 Hakkımda</h2>
-<p>Yeni teknolojiler öğrenmeyi seviyorum. HTML, CSS ve JavaScript öğrenerek daha iyi web siteleri geliştirmeyi hedefliyorum.</p>
+
+<h2>Ben Kimim?</h2>
+
+<p>
+
+Merhaba!
+
+Ben Kağan Ömer.
+
+16 yaşındayım.
+
+Futbol oynamayı çok seviyorum.
+
+Sol ayağımı kullanıyorum.
+
+Kendimi her gün geliştirerek daha iyi bir futbolcu olmayı hedefliyorum.
+
+Bu sitede attığım golleri, maç kesitlerini ve istatistiklerimi paylaşıyorum.
+
+</p>
+
 </section>
 
-<section>
-<h2>💻 Yeteneklerim</h2><br>
+<section id="stats">
+
+<h2>İstatistikler</h2>
+
 <div class="cards">
-<div class="card">HTML</div>
-<div class="card">CSS</div>
-<div class="card">JavaScript</div>
-<div class="card">Cisco</div>
-<div class="card">Network</div>
-<div class="card">GitHub</div>
+
+<div>
+
+<h1>58</h1>
+
+Gol
+
 </div>
-</section>
 
-<section>
-<h2>📂 Projeler</h2><br>
-<div class="cards">
-<div class="card"><h3>İlk Web Sitem</h3><p>GitHub Pages üzerinde yayınlandı.</p></div>
-<div class="card"><h3>Cisco Notları</h3><p>Ağ teknolojileri üzerine çalışmalar.</p></div>
-<div class="card"><h3>Yakında...</h3><p>Yeni projeler eklenecek.</p></div>
+<div>
+
+<h1>19</h1>
+
+Asist
+
 </div>
+
+<div>
+
+<h1>41</h1>
+
+Maç
+
+</div>
+
+<div>
+
+<h1>9.2</h1>
+
+Puan
+
+</div>
+
+</div>
+
 </section>
 
-<section>
-<h2>📞 İletişim</h2>
-<p>E-posta: mail@example.com</p>
-<p>GitHub: github.com/kaganomer956-ctrl</p>
+<section id="videos">
+
+<h2>Videolar</h2>
+
+<p>
+
+Buraya yüklediğin bütün videolar kart şeklinde görünecek.
+
+</p>
+
 </section>
 
-<footer>© 2026 Kağan Ömer</footer>
+<section id="top10">
+
+<h2>En İyi 10 Gol</h2>
+
+<p>
+
+Burada kullanıcı puanlarına göre en iyi goller sıralanacak.
+
+</p>
+
+</section>
+
+<section id="contact">
+
+<h2>İletişim</h2>
+
+<p>
+
+Instagram
+
+YouTube
+
+TikTok
+
+Mail
+
+</p>
+
+</section>
+
+<script src="script.js"></script>
+
 </body>
+
 </html>
