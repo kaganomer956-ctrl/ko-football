@@ -1111,3 +1111,84 @@ color:white;
 box-shadow:0 0 15px rgba(255,0,0,.4);
 
 }
+/* =========================
+   LEADERBOARD
+========================= */
+
+.leaderboard{
+
+padding:120px 8%;
+
+background:#090909;
+
+}
+
+.leaderboard h2{
+
+text-align:center;
+
+font-size:48px;
+
+margin-bottom:60px;
+
+}
+
+.leaderboard-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+gap:30px;
+
+}
+
+.leader-card{
+
+background:linear-gradient(145deg,#111,#1a1a1a);
+
+border:1px solid rgba(255,0,0,.3);
+
+border-radius:22px;
+
+padding:35px;
+
+text-align:center;
+
+transition:.35s;
+
+}
+
+.leader-card:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 0 30px rgba(255,0,0,.4);
+
+}
+
+.leader-card h3{
+
+color:#ff2b2b;
+
+margin-bottom:18px;
+
+font-size:26px;
+
+}
+
+.leader-card p{
+
+font-size:28px;
+
+font-weight:700;
+
+margin-bottom:12px;
+
+}
+
+.leader-card span{
+
+color:#bbb;
+
+}
